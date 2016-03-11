@@ -5,11 +5,15 @@
 
 var url = require("url");
 var handler = require("./handler");
+var config = {
+        "/" : handler.index,
+        "/upload" : handler.upload
+};
 
 function route(request, response) {
     var path = url.parse(request.url).pathname;
     console.log("request: " + request.method + " " + path);
-    var reqHandler = handler.config[path];
+    var reqHandler = config[path];
     if (typeof reqHandler == "function") {
         reqHandler(request, response);
     } else {

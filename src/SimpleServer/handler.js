@@ -7,13 +7,8 @@ var fs = require("fs");
 var fi = require("formidable");
 var util = require("util");
 
-var config = {
-    "/" : index,
-    "/upload" : upload
-};
-
 function index(request, response) {
-    var fileData = fs.readFileSync("/devdata/projects/study/NodejsStudy/src/server/upload.html");
+    var fileData = fs.readFileSync("./upload.html");
     response.writeHead(200, {
         "Content-Type" : "text/html"
     });
@@ -24,7 +19,7 @@ function index(request, response) {
 function upload(request, response) {
     var form = new fi.IncomingForm();
     form.encoding = "utf8";
-    form.uploadDir = "/devdata/projects/study/NodejsStudy/src/server/upload";
+    form.uploadDir = "./upload";
     form.keepExtensions = true;
     form.maxFieldSize = 5 * 1024 * 1024;
     form.parse(request, function(err, fields, files) {
@@ -83,6 +78,5 @@ function upload(request, response) {
     return;
 }
 
-exports.config = config;
 exports.index = index;
 exports.upload = upload;
