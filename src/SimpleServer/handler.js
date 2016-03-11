@@ -1,3 +1,8 @@
+/**
+ * 业务逻辑处理器。
+ * @author NieYong<aofengblog@163.com>
+ */
+
 var fs = require("fs");
 var fi = require("formidable");
 var util = require("util");

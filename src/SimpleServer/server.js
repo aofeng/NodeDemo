@@ -1,3 +1,8 @@
+/**
+ * 服务器实例。
+ * @author NieYong<aofengblog@163.com>
+ */
+
 var http = require("http");
 
 function start(port, router) {

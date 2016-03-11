@@ -1,3 +1,8 @@
+/**
+ * 路由器。
+ * @author NieYong<aofengblog@163.com>
+ */
+
 var url = require("url");
 var handler = require("./handler");
 
