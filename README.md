@@ -4,3 +4,4 @@
 * connect框架
     * [静态文件处理](src/connect/serve-static.md)
     * [压缩处理](src/connect/compression.md)
+    * [目录列表](src/connect/serve-index.md)
