@@ -65,7 +65,7 @@ var compress = require("compression");
 * `zlib.Z_RLE` 设计的目的是和`zlib.Z_HUFFMAN_ONLY`一样快，但是可以给PNG图像提供最好的压缩效果。
 
 #示例
-[源码](src/connect/compression.js)
+[源码](compression.js)
 ```node
 /**
  * 压缩处理。

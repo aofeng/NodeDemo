@@ -61,6 +61,7 @@ CSS样式表的路径。
 默认值：tiles。
 
 #示例
+[源码](serve-index.js)
 ```node
 /**
  * 目录列表。

@@ -5,3 +5,4 @@
     * [静态文件处理](src/connect/serve-static.md)
     * [压缩处理](src/connect/compression.md)
     * [目录列表](src/connect/serve-index.md)
+    * [开发环境下的错误处理](src/connect/errorhandler.md)
