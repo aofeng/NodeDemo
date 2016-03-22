@@ -14,17 +14,17 @@ npm install -g express
 npm install -g express-generator
 ```
 
-#实践
-1、[Hello express](helloexpress.js)
-
 #教程
-1、新建express项目，使用ejs模板引擎。
+* 新建express项目
+    使用ejs模板引擎
 ```bash
 express -e sample
 cd sample
 npm install
 ```
 
+* [路由](router.md)
 
-
-
+#实践
+* [Hello express](helloexpress.js)
+* [路由](router.js)
