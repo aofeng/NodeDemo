@@ -29,6 +29,7 @@ app.all("/hello", function(req, res) {
 
 ##PATH
 路径可以是字符串，字符串模式或者正则表达式。
+
 示例1：精确匹配
 ```node
 app.get("/public/1", function(req, res) {
