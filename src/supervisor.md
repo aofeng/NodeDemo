@@ -20,10 +20,10 @@ supervisor ./express/helloexpress.js
 ```
 控制台输出如下信息：
 >Running node-supervisor with<br/>
->  program './express/helloexpress.js'<br/>
->  --watch '.'<br/>
->  --extensions 'node,js'<br/>
->  --exec 'node'<br/>
+>&nbsp;&nbsp;program './express/helloexpress.js'<br/>
+>&nbsp;&nbsp;--watch '.'<br/>
+>&nbsp;&nbsp;--extensions 'node,js'<br/>
+>&nbsp;&nbsp;--exec 'node'<br/>
 ><br/>
 >Starting child process with 'node ./express/helloexpress.js'<br/>
 >Watching directory '/devdata/projects/open_source/mine/NodeDemo/src' for changes.<br/>
